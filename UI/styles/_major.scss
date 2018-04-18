@@ -1,6 +1,6 @@
 @import 'display';
 @import 'grid';
-$footer-min-height: 200px;
+@import 'footer';
 
 body {
   margin: 0px;
@@ -12,10 +12,6 @@ p {
 
 main {
   min-height: 70vh;
-}
-
-footer {
-  min-height: $footer-min-height;
 }
 
 .flex-container {

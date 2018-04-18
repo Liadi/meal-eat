@@ -877,6 +877,13 @@
     width: calc(100% - (2 * 11px));
   }
 }
+footer {
+  background-color: #585858;
+  color: whitesmoke;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
 body {
   margin: 0px;
 }
@@ -887,10 +894,6 @@ p {
 
 main {
   min-height: 70vh;
-}
-
-footer {
-  min-height: 200px;
 }
 
 .flex-container {

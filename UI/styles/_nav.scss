@@ -1,9 +1,9 @@
-
+$nav-color: rgb(88,88,88);
 $nav-min-height: 60px;
 
 .navbar {
   padding: 15px 30px;
-  background-color: rgb(88,88,88);
+  background-color: $nav-color;
   min-height: $nav-min-height;
   
   .nav-list {
