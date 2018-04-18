@@ -1,0 +1,30 @@
+
+$nav-min-height: 60px;
+
+.navbar {
+  padding: 15px 30px;
+  background-color: rgb(88,88,88);
+  min-height: $nav-min-height;
+  
+  .nav-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: inline;
+  
+    .nav-item {
+      display: inline;
+      color: rgb(245,245,245);
+      font-size: 1.2em;
+      margin: 0px 10px;
+      padding: 5px;
+      cursor: pointer;
+    }
+
+    .nav-item:hover {
+      border-radius: 2px;
+      background-color: rgb(128,128,128);
+    }
+  
+  }
+}
