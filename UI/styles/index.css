@@ -884,6 +884,10 @@ footer {
   padding-bottom: 10px;
 }
 
+* {
+  font-size: medium;
+}
+
 body {
   margin: 0px;
 }
@@ -894,6 +898,18 @@ p {
 
 main {
   min-height: 70vh;
+}
+
+.form-group {
+  display: block;
+  padding: 5px;
+  margin: 5px;
+}
+.form-group input {
+  padding: 5px;
+  display: block;
+  width: 100%;
+  margin: 5px 0px 0px;
 }
 
 .flex-container {
